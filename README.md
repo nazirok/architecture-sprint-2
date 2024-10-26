@@ -83,3 +83,8 @@ curl --silent http://ifconfig.me
 
 Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
 
+## Ссылка на схему
+
+https://disk.yandex.ru/d/BACexkaqV3aT3Q
+
+также схема есть в этом проекте имя файла getway_sd.drawio
