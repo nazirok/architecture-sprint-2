@@ -1,9 +1,9 @@
 ## Как запустить
 
-перейти в папку mongo-sharding-repl
+перейти в папку sharding-repl-cache
 
 ```shell
-cd ./mongo-sharding-repl
+cd ./sharding-repl-cache/
 ```
 
 Выполнить команду
