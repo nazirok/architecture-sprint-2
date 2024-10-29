@@ -1,11 +1,9 @@
-# pymongo-api
-
 ## Как запустить
 
-перейти в папку sharding-repl-cache
+перейти в папку mongo-sharding-repl
 
 ```shell
-cd ./sharding-repl-cache/
+cd ./mongo-sharding-repl
 ```
 
 Выполнить команду
@@ -60,31 +58,4 @@ cd ./scripts
 |shard2_repl_1|27022|173.17.0.10|shard2-repl-1-data|
 |shard2_repl_2|27023|173.17.0.11|shard2-repl-2-data|
 |mongos_router|27024|173.17.0.12||
-|redis|6379|173.17.0.13|redis_data|
 |pymongo_api|8080|173.17.0.14||
-
-## Как проверить
-
-### Если вы запускаете проект на локальной машине
-
-Откройте в браузере http://localhost:8080
-
-### Если вы запускаете проект на предоставленной виртуальной машине
-
-Узнать белый ip виртуальной машины
-
-```shell
-curl --silent http://ifconfig.me
-```
-
-Откройте в браузере http://<ip виртуальной машины>:8080
-
-## Доступные эндпоинты
-
-Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
-
-## Ссылка на схему
-
-https://disk.yandex.ru/d/BACexkaqV3aT3Q
-
-также схема есть в этом проекте имя файла getway_sd.drawio
